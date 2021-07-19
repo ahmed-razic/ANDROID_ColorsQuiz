@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+            <!-- Name of app-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/colors_quiz"
+                android:textAllCaps="true"
+                android:textSize="32sp" />
+
+            <!--User's name-->
+            <EditText
+                android:id="@+id/name_text_field"
+                style="@style/EditTextStyle"
+                android:hint="@string/hint_name" />
+
+            <!--Question 1-->
+            <TextView
+                style="@style/QuestionStyle"
+                android:text="@string/question1" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/q1_radiobutton1"
+                    style="@style/RadioBoxStyle"
+                    android:text="@string/radiobutton_blue" />
+
+                <RadioButton
+                    android:id="@+id/q1_radiobutton2"
+                    style="@style/RadioBoxStyle"
+                    android:text="@string/radiobutton_pink" />
+
+                <RadioButton
+                    android:id="@+id/q1_radiobutton3"
+                    style="@style/RadioBoxStyle"
+                    android:text="@string/radiobutton_yellow" />
+            </RadioGroup>
+
+            <!--Question 2-->
+            <TextView
+                style="@style/QuestionStyle"
+                android:text="@string/question2" />
+
+            <EditText
+                android:id="@+id/q2_text_field"
+                style="@style/EditTextStyle"
+                android:hint="@string/q2_enter_your_answer" />
+
+            <!--Question 3-->
+            <TextView
+                style="@style/QuestionStyle"
+                android:text="@string/question3" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/q3_checkbox_1"
+                    style="@style/CheckBoxStyle"
+                    android:text="@string/checkbox_red" />
+
+                <CheckBox
+                    android:id="@+id/q3_checkbox_2"
+                    style="@style/CheckBoxStyle"
+                    android:text="@string/checkbox_green" />
+
+                <CheckBox
+                    android:id="@+id/q3_checkbox_3"
+                    style="@style/CheckBoxStyle"
+                    android:text="@string/checkbox_blue" />
+
+                <CheckBox
+                    android:id="@+id/q3_checkbox_4"
+                    style="@style/CheckBoxStyle"
+                    android:text="@string/checkbox_all_of_them" />
+            </LinearLayout>
+
+            <!--Question 4-->
+            <TextView
+                style="@style/QuestionStyle"
+                android:text="@string/question4" />
+
+            <EditText
+                android:id="@+id/q4_text_field"
+                style="@style/EditTextStyle"
+                android:hint="@string/q4_enter_your_answer" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:onClick="submit"
+                android:text="@string/submit" />
+
+            <TextView
+                android:id="@+id/result_textview"
+                style="@style/QuestionStyle"
+                android:hint="@string/hint_result" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+
+

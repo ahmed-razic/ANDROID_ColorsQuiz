@@ -1,0 +1,27 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Color Quiz</string>
+    <string name="colors_quiz">Colors Quiz</string>
+    <string name="hint_name">Enter your name</string>
+    <string name="question1">Q1. If you mix red and green, which color you get?</string>
+    <string name="question2">Q2. During winter, which color of clothes is preferred, lighter or darker?</string>
+    <string name="question3">Q3. Which is the primary color?</string>
+    <string name="question4">Q4. Three main color attributes are saturation, brightness and …?</string>
+    <string name="radiobutton_blue">blue</string>
+    <string name="radiobutton_pink">pink</string>
+    <string name="radiobutton_yellow">yellow</string>
+    <string name="q2_enter_your_answer">Enter your answer</string>
+    <string name="q4_enter_your_answer">Enter your answer</string>
+    <string name="submit">Submit</string>
+    <string name="checkbox_red">Red</string>
+    <string name="checkbox_green">Green</string>
+    <string name="checkbox_blue">Blue</string>
+    <string name="checkbox_all_of_them">All of them</string>
+
+    <string name="name">Name: <xliff:g example="Ahmed" id="name">%s</xliff:g></string>
+    <string name="score">Score: <xliff:g example="4/4" id="score">%d</xliff:g>/4</string>
+    <string name="passed">Passed: <xliff:g example="Yes" id="passed">%b</xliff:g></string>
+    <string name="award">Award: <xliff:g example="$10" id="name">%s</xliff:g></string>
+    <string name="thanks">Thank you</string>
+    <string name="hint_result">Result</string>
+    <string name="subject_email">Result of quiz for <xliff:g example="Result of quiz for Ahmed" id="subject_mail">%s</xliff:g> </string>
+</resources>

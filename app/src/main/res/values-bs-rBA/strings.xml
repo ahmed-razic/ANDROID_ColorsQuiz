@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Color Quiz</string>
+    <string name="colors_quiz">Kviz o bojama</string>
+    <string name="hint_name">Vase ime</string>
+    <string name="question1">P1. Ako pomjesate crvenu i zelenu, koju boju dobijete?</string>
+    <string name="question2">P2. Tokom zime, koja je boja odjece pozeljna, svjetlija ili tamnija?</string>
+    <string name="question3">P3. Koja je primarna boja?</string>
+    <string name="question4">P4. Tri glavna atributa boje su zasicenost, svjetlost i ...</string>
+    <string name="radiobutton_blue">Plava</string>
+    <string name="radiobutton_pink">Roza</string>
+    <string name="radiobutton_yellow">Zuta</string>
+    <string name="q2_enter_your_answer">Vas odgovor</string>
+    <string name="q4_enter_your_answer">Vas odgovor</string>
+    <string name="submit">Posalji</string>
+    <string name="checkbox_red">Crvena</string>
+    <string name="checkbox_green">Zelena</string>
+    <string name="checkbox_blue">Plava</string>
+    <string name="checkbox_all_of_them">Sve</string>
+    <string name="subject_email">"Rezultati kviza za <xliff:g example="Result of quiz for Ahmed" id="subject_mail">%s</xliff:g> "</string>
+    <string name="thanks">Hvala</string>
+    <string name="hint_result">Rezultat</string>
+    <string name="score">Rezultat: <xliff:g example="4/4" id="score">%d</xliff:g>/4</string>
+    <string name="name">Ime: <xliff:g example="Ahmed" id="name">%s</xliff:g></string>
+    <string name="passed">Polozio: <xliff:g example="Yes" id="passed">%b</xliff:g></string>
+    <string name="award">Nagrada: <xliff:g example="$10" id="name">%s</xliff:g></string>
+</resources>
